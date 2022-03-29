@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Gideon Roman', cursive;
+    color: #130f40;
+    
+}
+
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: #58B19F; */
+    /* background-color: #f1f1f1; */
+    background-color: #ced6e0;
+}
+
+h1{
+    text-align: center;
+    padding-top: 5rem;
+    font-size: 3rem;
+    width: 32%;
+    border-bottom: 3px solid #55E6C1;
+    margin: 0 auto;
+}
+
+.card{
+    width: 20rem;
+    height: 25rem;
+    border: 2px solid #55E6C1;
+    border-radius: .5rem;
+    margin: 2rem auto 0 auto;
+    text-align: center;
+    /* background-color: #fafafa; */
+    background-color: #dfe4ea;
+    /* box-shadow: 5px 5px 20px 0px #55E6C1; */
+    transition: all 1s;
+}
+
+.card:hover{
+    background-color: #55E6C1;
+    box-shadow: 10px 10px 30px 0px #55E6C1;
+    width: 21rem;
+    height: 26rem;
+    transform: scale(102%, 102%)
+}
+
+input{
+    width: 13rem;
+    height: 2rem;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: .2rem;
+    background-color: aliceblue;
+    margin: 3rem 0;
+    border: 2px solid #55E6C1;
+}
+
+.city_temp{
+    font-size: 2.3rem;
+}
+
+.city_name{
+    font-size: 3rem;
+    padding-top: 1rem;
+}
+
+.temp{
+    padding: 2.5rem 0rem;
+    font-size: 1rem;
+}
+
+.temp span{
+    margin: 0 .2rem;
+}
+
+
+
